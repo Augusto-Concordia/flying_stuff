@@ -1,9 +1,13 @@
 package com.amp.flyingstuff.airplane;
 
+import java.util.Objects;
+
 public class Airplane {
     protected String brand;
     protected double price;
     protected int horsepower;
+
+    /* CONSTRUCTORS */
 
     public Airplane() {
         this("Unknown", 3.14, 3);
@@ -18,5 +22,50 @@ public class Airplane {
         this.brand = brand;
         this.price = price;
         this.horsepower = horsepower;
+    }
+
+    /* ACCESSORS & MUTATORS */
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public int getHorsepower() {
+        return horsepower;
+    }
+
+    public void setHorsepower(int horsepower) {
+        this.horsepower = horsepower;
+    }
+
+    /* OVERRIDES */
+
+    @Override
+    public String toString() {
+        return "This " + this.getClass().getSimpleName() + " is from " + brand + ", costs " + price + "$ and has " + horsepower + "hp.";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Airplane airplane = (Airplane) o;
+
+        if (Double.compare(airplane.price, price) != 0) return false;
+        if (horsepower != airplane.horsepower) return false;
+        return Objects.equals(brand, airplane.brand);
     }
 }
