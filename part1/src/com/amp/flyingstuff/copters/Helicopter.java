@@ -1,8 +1,16 @@
+// -----------------------------------------------------
+// Assignment 2 - COMP 249
+// Due Date: March 4th
+// Question: Part I
+// Written by: Augusto Mota Pinheiro (40208080)
+//             Michaël Gugliandolo (40213419)
+// -----------------------------------------------------
+
 package com.amp.flyingstuff.copters;
 
 import com.amp.flyingstuff.airplane.Airplane;
 
-public class Helicopter extends Airplane {
+public class Helicopter extends Airplane  {
     protected int numberOfCylinders;
     protected int creationYear;
     protected int passengerCapacity;

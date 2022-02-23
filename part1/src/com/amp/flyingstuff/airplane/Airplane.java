@@ -1,8 +1,18 @@
+// -----------------------------------------------------
+// Assignment 2 - COMP 249
+// Due Date: March 4th
+// Question: Part I
+// Written by: Augusto Mota Pinheiro (40208080)
+//             Michaël Gugliandolo (40213419)
+// -----------------------------------------------------
+
 package com.amp.flyingstuff.airplane;
+
+import com.amp.flyingstuff.IPrice;
 
 import java.util.Objects;
 
-public class Airplane {
+public class Airplane implements IPrice {
     protected String brand;
     protected double price;
     protected int horsepower;
