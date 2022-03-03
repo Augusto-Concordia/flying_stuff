@@ -8,11 +8,11 @@
 
 package com.amp.flyingstuff.airplane;
 
-import com.amp.flyingstuff.IPrice;
+import com.amp.flyingstuff.Flying;
 
 import java.util.Objects;
 
-public class Airplane implements IPrice {
+public class Airplane extends Flying {
     protected String brand;
     protected double price;
     protected int horsepower;

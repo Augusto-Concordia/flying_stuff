@@ -1,8 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a88581fb-2ce7-45b3-9dc3-c58cc5c4c420" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Flying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/airplane/Airplane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Helicopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Quadcopter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/AgriculturalDrone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/MAV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/multi/Multirotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/uav/UAV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/IPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/Flying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/airplane/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/airplane/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/uav/UAV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/uav/UAV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="256WXrjL5vu0kkPDRIyxwoiN9pK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -75,6 +96,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/uml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -87,6 +113,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -98,10 +129,22 @@
       <updated>1644848060464</updated>
       <workItem from="1644848061953" duration="131000" />
       <workItem from="1644848215542" duration="65000" />
+      <workItem from="1646312776073" duration="2021000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

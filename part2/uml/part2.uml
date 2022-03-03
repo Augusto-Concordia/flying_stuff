@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.amp.flyingstuff</OriginalElement>
+  <nodes>
+    <node x="170.25" y="454.0">com.amp.flyingstuff.copters.Helicopter</node>
+    <node x="0.0" y="969.0">com.amp.flyingstuff.Main</node>
+    <node x="725.25" y="465.0">com.amp.flyingstuff.drones.AgriculturalDrone</node>
+    <node x="459.25" y="0.0">com.amp.flyingstuff.Flying</node>
+    <node x="205.75" y="172.0">com.amp.flyingstuff.airplane.Airplane</node>
+    <node x="0.0" y="736.0">com.amp.flyingstuff.copters.Quadcopter</node>
+    <node x="459.25" y="465.0">com.amp.flyingstuff.drones.MAV</node>
+    <node x="640.5" y="183.0">com.amp.flyingstuff.uav.UAV</node>
+    <node x="317.0" y="736.0">com.amp.flyingstuff.multi.Multirotor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.amp.flyingstuff.airplane.Airplane" target="com.amp.flyingstuff.Flying" relationship="GENERALIZATION">
+      <point x="0.0" y="-116.0" />
+      <point x="304.75" y="147.0" />
+      <point x="532.25" y="147.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="com.amp.flyingstuff.copters.Helicopter" target="com.amp.flyingstuff.airplane.Airplane" relationship="GENERALIZATION">
+      <point x="0.0" y="-116.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="com.amp.flyingstuff.drones.AgriculturalDrone" target="com.amp.flyingstuff.uav.UAV" relationship="GENERALIZATION">
+      <point x="0.0" y="-105.0" />
+      <point x="870.75" y="429.0" />
+      <point x="726.5" y="429.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+    <edge source="com.amp.flyingstuff.uav.UAV" target="com.amp.flyingstuff.Flying" relationship="GENERALIZATION">
+      <point x="0.0" y="-105.0" />
+      <point x="726.5" y="147.0" />
+      <point x="532.25" y="147.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="com.amp.flyingstuff.multi.Multirotor" target="com.amp.flyingstuff.copters.Helicopter" relationship="GENERALIZATION">
+      <point x="0.0" y="-94.0" />
+      <point x="461.0" y="711.0" />
+      <point x="304.75" y="711.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="com.amp.flyingstuff.copters.Quadcopter" target="com.amp.flyingstuff.copters.Helicopter" relationship="GENERALIZATION">
+      <point x="0.0" y="-94.0" />
+      <point x="148.5" y="711.0" />
+      <point x="304.75" y="711.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="com.amp.flyingstuff.drones.MAV" target="com.amp.flyingstuff.uav.UAV" relationship="GENERALIZATION">
+      <point x="0.0" y="-105.0" />
+      <point x="582.25" y="429.0" />
+      <point x="726.5" y="429.0" />
+      <point x="0.0" y="105.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.9365808823529411" showDependencies="false" x="645.1673209028473" y="412.28066732090144" />
+  <SelectedNodes>
+    <node>com.amp.flyingstuff.Flying</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

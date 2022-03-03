@@ -8,9 +8,9 @@
 
 package com.amp.flyingstuff.uav;
 
-import com.amp.flyingstuff.IPrice;
+import com.amp.flyingstuff.Flying;
 
-public class UAV implements IPrice {
+public class UAV extends Flying {
     protected double price;
     protected double weight;
 
