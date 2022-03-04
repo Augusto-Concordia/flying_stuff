@@ -8,6 +8,9 @@
 
 package com.amp.flyingstuff;
 
+/**
+ * Abstract super-class of all flying objects
+ */
 public abstract class Flying {
     public abstract double getPrice();
 

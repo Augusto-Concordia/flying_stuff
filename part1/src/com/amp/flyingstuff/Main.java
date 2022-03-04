@@ -14,8 +14,15 @@ import com.amp.flyingstuff.copters.*;
 import com.amp.flyingstuff.drones.*;
 import com.amp.flyingstuff.uav.UAV;
 
+/**
+ * Driver class that creates flying objects and 2 arrays, prints out their information, compares multiple objects, and calculates the least and most expensive UAV
+ */
 public class Main {
 
+    /**
+     * Driver method that runs the project
+     * @param args Optional arguments for driver method
+     */
     public static void main(String[] args) {
         Flying airplane1 = new Airplane();
         Flying airplane2 = new Airplane("Horseroo", 31.4, 232);
@@ -51,6 +58,7 @@ public class Main {
         Flying MAV3 = new MAV(22.86, 2.31, "POLQ-32JA-HK", 13.8);
         Flying MAV4 = new MAV((MAV) MAV3);
 
+        //Array with flying objects from all the classes
         Flying[] flying = new Flying[]{
                 airplane1,
                 airplane2,
@@ -70,6 +78,7 @@ public class Main {
                 MAV4
         };
 
+        //Array without UAVs
         Flying[] airplanes = new Flying[]{
                 airplane1,
                 airplane2,
@@ -128,22 +137,26 @@ public class Main {
         System.out.println("Thank you for using our program!");
     }
 
-    private static void findLeastAndMostExpensiveUAV(Flying[] prices) {
+    /**
+     * Finds the least and most expensive UAVs in an array and prints them out (or print out different message if there aren't any UAVs)
+     * @param flyers Array of flying objects
+     */
+    private static void findLeastAndMostExpensiveUAV(Flying[] flyers) {
         Flying mostExpensive = null;
         Flying leastExpensive = null;
         boolean hasFoundUAV = false;
 
-        for (Flying testPrice : prices) {
-            if (!(testPrice instanceof UAV)) continue;
+        for (Flying flyer : flyers) {
+            if (!(flyer instanceof UAV)) continue;
 
             if (!hasFoundUAV) {
-                mostExpensive = testPrice;
-                leastExpensive = testPrice;
+                mostExpensive = flyer;
+                leastExpensive = flyer;
                 hasFoundUAV = true;
-            } else if (mostExpensive.getPrice() < testPrice.getPrice()) {
-                mostExpensive = testPrice;
-            } else if (leastExpensive.getPrice() > testPrice.getPrice()) {
-                leastExpensive = testPrice;
+            } else if (mostExpensive.getPrice() < flyer.getPrice()) {
+                mostExpensive = flyer;
+            } else if (leastExpensive.getPrice() > flyer.getPrice()) {
+                leastExpensive = flyer;
             }
         }
 

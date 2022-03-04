@@ -5,22 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a88581fb-2ce7-45b3-9dc3-c58cc5c4c420" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Flying.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/airplane/Airplane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Helicopter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Quadcopter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/AgriculturalDrone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/MAV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/multi/Multirotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/uav/UAV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../part1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/IPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/Flying.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Flying.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Flying.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/airplane/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/airplane/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/copters/Helicopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/copters/Helicopter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/copters/Quadcopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/copters/Quadcopter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/drones/AgriculturalDrone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/drones/AgriculturalDrone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/drones/MAV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/drones/MAV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/multi/Multirotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/multi/Multirotor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/uav/UAV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/uav/UAV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/Flying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/Flying.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/airplane/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/airplane/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Helicopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Helicopter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Quadcopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Quadcopter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/AgriculturalDrone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/AgriculturalDrone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/MAV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/MAV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/multi/Multirotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/multi/Multirotor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/uav/UAV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/uav/UAV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,12 +100,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/uml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -130,6 +141,9 @@
       <workItem from="1644848061953" duration="131000" />
       <workItem from="1644848215542" duration="65000" />
       <workItem from="1646312776073" duration="2021000" />
+      <workItem from="1646339480485" duration="1338000" />
+      <workItem from="1646378453614" duration="28000" />
+      <workItem from="1646378519230" duration="806000" />
     </task>
     <servers />
   </component>
@@ -146,5 +160,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -13,26 +13,43 @@ import com.amp.flyingstuff.uav.UAV;
 
 import java.util.Objects;
 
+/**
+ * Represents a MAV (Micro Air Vehicle) with some attributes, and extends from UAV
+ */
 public class MAV extends UAV {
-    private String model;
-    private double size;
+    private String model; //Model of the MAV
+    private double size; //Size of the MAV
 
     /* CONSTRUCTORS */
 
-    public MAV()
-    {
+    /**
+     * Default constructor that assigns base values to variables
+     */
+    public MAV() {
         super();
         this.model = "Unknown";
         this.size = 3.14;
     }
 
-    public MAV(MAV mav)
-    {
+    /**
+     * Copy constructor that copies the values of the other MAV's attributes
+     *
+     * @param mav Other MAV to copy values from
+     */
+    public MAV(MAV mav) {
         super(mav);
         this.model = mav.model;
         this.size = mav.size;
     }
 
+    /**
+     * Parametrized constructor to set given values to the attributes
+     *
+     * @param weight Weight of the MAV
+     * @param price  Price of the MAV
+     * @param model  Model of the MAV
+     * @param size   Size of the MAV
+     */
     public MAV(double weight, double price, String model, double size) {
         super(weight, price);
         this.model = model;
@@ -59,16 +76,31 @@ public class MAV extends UAV {
 
     /* OVERRIDES */
 
+    /**
+     * Copy this object
+     * @return New object using its copy constructor to set its attributes
+     */
     @Override
     public Flying deepCopy() {
         return new MAV(this);
     }
 
+    /**
+     * Generates sentence with the MAV's attributes
+     *
+     * @return String containing all the attributes
+     */
     @Override
     public String toString() {
         return super.toString() + " Its model is " + model + " and measures " + size + ".";
     }
 
+    /**
+     * Checks if this object equals another object by comparing class and attributes
+     *
+     * @param o Other object to compare
+     * @return True if both objects are equal, false if not
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

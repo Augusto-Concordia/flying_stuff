@@ -16,8 +16,16 @@ import com.amp.flyingstuff.drones.MAV;
 import com.amp.flyingstuff.multi.Multirotor;
 import com.amp.flyingstuff.uav.UAV;
 
+/**
+ * Driver class that creates flying objects and an array, copies this array, and prints out the information of all the objects in the arrays
+ */
 public class Main {
 
+    /**
+     * Copy an array of flying objects
+     * @param arrayToCopy Array to copy objects from
+     * @return New array filled with new copies
+     */
     private static Flying[] copyFlyingObjects(Flying[] arrayToCopy) {
         Flying[] copiedArray = new Flying[arrayToCopy.length];
 
@@ -28,6 +36,10 @@ public class Main {
         return copiedArray;
     }
 
+    /**
+     * Driver method that runs the project
+     * @param args Optional arguments for driver method
+     */
     public static void main(String[] args) {
         Flying airplane1 = new Airplane();
         Flying airplane2 = new Airplane("Horseroo", 31.4, 232);
@@ -55,6 +67,7 @@ public class Main {
         Flying MAV2 = new MAV(22.86, 2.31, "POLQ-32JA-HK", 13.8);
         Flying MAV3 = new MAV((MAV) MAV2);
 
+        //Array with flying objects from all the classes
         Flying[] flying = new Flying[]{
                 airplane1,
                 airplane2,
@@ -77,6 +90,7 @@ public class Main {
                 MAV3
         };
 
+        //Copied array
         Flying[] copiedFlying = copyFlyingObjects(flying);
 
         for (Flying flyer : flying) {

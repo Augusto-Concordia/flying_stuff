@@ -10,25 +10,34 @@ package com.amp.flyingstuff.copters;
 
 import com.amp.flyingstuff.Flying;
 import com.amp.flyingstuff.airplane.Airplane;
-import com.amp.flyingstuff.uav.UAV;
 
-public class Helicopter extends Airplane  {
-    protected int numberOfCylinders;
-    protected int creationYear;
-    protected int passengerCapacity;
+
+/**
+ * Represents a helicopter with some attributes, and extends from Airplane
+ */
+public class Helicopter extends Airplane {
+    protected int numberOfCylinders; //Number of cylinders of helicopter
+    protected int creationYear; //Creation year of helicopter
+    protected int passengerCapacity; //Number of passengers that can fit in the helicopter
 
     /* CONSTRUCTORS */
 
-    public Helicopter()
-    {
+    /**
+     * Default constructor that assigns base values to variables
+     */
+    public Helicopter() {
         super();
         this.numberOfCylinders = 4;
         this.creationYear = 2022;
         this.passengerCapacity = 2;
     }
 
-    public Helicopter(Helicopter helicopter)
-    {
+    /**
+     * Copy constructor that copies the values of the other helicopter's attributes
+     *
+     * @param helicopter Other helicopter to copy values from
+     */
+    public Helicopter(Helicopter helicopter) {
         super(helicopter);
 
         this.numberOfCylinders = helicopter.numberOfCylinders;
@@ -36,6 +45,16 @@ public class Helicopter extends Airplane  {
         this.passengerCapacity = helicopter.passengerCapacity;
     }
 
+    /**
+     * Parametrized constructor to set given values to the attributes
+     *
+     * @param brand             Brand of the helicopter
+     * @param price             Price of the helicopter
+     * @param horsepower        Horsepower of the helicopter
+     * @param numberOfCylinders Number of cylinders of the helicopter
+     * @param creationYear      Creation year of the helicopter
+     * @param passengerCapacity Passenger capacity of the helicopter
+     */
     public Helicopter(String brand, double price, int horsepower, int numberOfCylinders, int creationYear, int passengerCapacity) {
         super(brand, price, horsepower);
 
@@ -72,16 +91,31 @@ public class Helicopter extends Airplane  {
 
     /* OVERRIDES */
 
+    /**
+     * Copy this object
+     * @return New object using its copy constructor to set its attributes
+     */
     @Override
     public Flying deepCopy() {
         return new Helicopter(this);
     }
 
+    /**
+     * Generates sentence with the helicopter's attributes
+     *
+     * @return String containing all the attributes
+     */
     @Override
     public String toString() {
         return super.toString() + " It also has " + numberOfCylinders + " cylinders, was created in " + creationYear + " and has a maximum human capacity of " + passengerCapacity + " people.";
     }
 
+    /**
+     * Checks if this object equals another object by comparing class and attributes
+     *
+     * @param o Other object to compare
+     * @return True if both objects are equal, false if not
+     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -95,3 +129,4 @@ public class Helicopter extends Airplane  {
         return passengerCapacity == helicopter.passengerCapacity;
     }
 }
+
