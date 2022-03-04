@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a88581fb-2ce7-45b3-9dc3-c58cc5c4c420" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Flying.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Flying.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/airplane/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/airplane/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/copters/Helicopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/copters/Helicopter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/copters/Quadcopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/copters/Quadcopter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/drones/AgriculturalDrone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/drones/AgriculturalDrone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/drones/MAV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/drones/MAV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/multi/Multirotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/multi/Multirotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/uav/UAV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../part1/src/com/amp/flyingstuff/uav/UAV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/Flying.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/Flying.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/airplane/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/airplane/Airplane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Helicopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Helicopter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Quadcopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/copters/Quadcopter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/AgriculturalDrone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/AgriculturalDrone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/MAV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/drones/MAV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/multi/Multirotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/multi/Multirotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/amp/flyingstuff/uav/UAV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/amp/flyingstuff/uav/UAV.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +124,7 @@
       <workItem from="1646339480485" duration="1338000" />
       <workItem from="1646378453614" duration="28000" />
       <workItem from="1646378519230" duration="806000" />
+      <workItem from="1646429415936" duration="1710000" />
     </task>
     <servers />
   </component>
